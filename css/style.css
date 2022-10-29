@@ -211,6 +211,10 @@
   grid-template-columns: repeat(4, 1fr);
 }
 
+.grid--5-cols {
+  grid-template-columns: repeat(5, 1fr);
+}
+
 .subheading {
   display: block;
   font-size: 1.6rem;
@@ -548,4 +552,11 @@
 .cta *:focus {
   outline: none;
   box-shadow: 0 0 0 0.8rem rgba(255, 255, 255, 0.667);
+}
+
+/*****************************/
+/* FOOTER SECTION */
+/*****************************/
+.footer {
+  padding: 9.6rem 0;
 }
