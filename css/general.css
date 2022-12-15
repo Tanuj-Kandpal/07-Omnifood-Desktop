@@ -9,6 +9,8 @@ html {
   /* Percentage of users browser fontsize setting */
   font-size: 62.5%;
   overflow-x: hidden;
+  /* This method not work in safari only works with google chrome and etc.. */
+  /* scroll-behavior: smooth; */
 }
 
 body {
